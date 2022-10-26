@@ -1,0 +1,39 @@
+{
+	"name": "@waraw/gr",
+	"version": "0.1.0",
+	"homepage": "https://georgewaraw.github.io/gr/",
+	"dependencies": {
+		"@react-three/drei": "^9.25.3",
+		"@react-three/fiber": "^8.6.2",
+		"@react-three/postprocessing": "^2.6.2",
+		"cors": "^2.8.5",
+		"gh-pages": "^4.0.0",
+		"http": "0.0.1-security",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"react-scripts": "5.0.1",
+		"socket.io": "^4.5.3",
+		"socket.io-client": "^4.5.3",
+		"three": "^0.144.0"
+	},
+	"proxy":"http://localhost:3002/",
+	"scripts": {
+		"start": "react-scripts start",
+		"predeploy": "react-scripts build",
+		"deploy": "gh-pages -d build"
+	},
+	"eslintConfig": {
+		"extends": [
+			"react-app"
+		]
+	},
+	"browserslist": {
+		"production": [
+			"defaults"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 safari version"
+		]
+	}
+}
